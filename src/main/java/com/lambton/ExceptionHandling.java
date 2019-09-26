@@ -1,6 +1,6 @@
 package com.lambton;
 
-import java.sql.SQLOutput;
+
 
 public class ExceptionHandling {
     public static void main(String[] args) {
@@ -10,6 +10,8 @@ public class ExceptionHandling {
 
         int x[]={1,2,3};
         System.out.println("START");
+
+        Student s=new Student();
 try {
 
     c = a / b;
@@ -31,6 +33,16 @@ catch (Exception e)
     }
 
 
+finally {
+            System.out.println("Thanks");
+        }
         System.out.println("END");
+
+     s=null;
+     System.gc();
     }
+
+
+
+
 }
