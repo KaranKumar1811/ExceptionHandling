@@ -6,6 +6,6 @@ public class NamelengthException extends Exception
 
     public NamelengthException(String message) {
         super(message);
-    }
 
+    }
 }
